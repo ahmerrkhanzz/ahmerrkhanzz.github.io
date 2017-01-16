@@ -1,0 +1,143 @@
+/* _____________________________________
+
+   Color Picker
+   _____________________________________ */
+
+.color-switcher {
+  position: fixed;
+  top: 80px;
+  padding: 15px 20px;
+  width: 270px;
+  border-radius: 0 0 5px 0;
+  z-index: 1150;
+  box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.color-switcher p {
+  font-size: 10px;
+}
+
+p.switcher-title {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.color-switcher hr {
+  margin-top: 12px;
+}
+
+ul.color-picker {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.color-picker li {
+  float: left;
+  margin: 0;
+  list-style: none;
+}
+
+.color-picker li a {
+  display: table;
+  height: 46px;
+  width: 46px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.color-picker li a:hover {
+  border-color: #f4f4f4;
+}
+
+.btn.btn-switch {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  margin: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 0 5px 5px 0;
+  transition: background .3s ease-in-out;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.color-switcher .btn.btn-switch {
+  font-size: 27px;
+}
+
+.btn-switch i {
+  margin: auto;
+}
+
+.color-close {
+  left: -270px !important;
+  transition: all .4s ease-in-out;
+}
+
+.color-open {
+  left: 0 !important;
+  transition: all .4s ease-in-out;
+}
+
+.blue {
+  background-color: #2196f3;
+}
+
+.purple {
+  background-color: #9c27b0;
+}
+
+.indigo {
+  background-color: #3f51b5;
+}
+
+.teal {
+  background-color: #009688;
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #f7f7f7;
+}
+
+.lime {
+  background-color: #afb42b;
+}
+
+.blue-grey {
+  background-color: #607d8b;
+}
+
+.red {
+  background-color: #e53511;
+}
+
+.orange {
+  background-color: #fb8c00;
+}
+
+.yellow {
+  background-color: #fbc02d;
+}
+
+.dark {
+  background-color: #424242;
+}
+
+.light {
+  background-color: #f7f7f7;
+}
+
+
